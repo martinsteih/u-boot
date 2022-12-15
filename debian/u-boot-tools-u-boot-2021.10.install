@@ -1,4 +1,4 @@
-./debian/tmp/usr/bin/dumpimage usr/bin/
-./debian/tmp/usr/bin/mkenvimage usr/bin/
-./debian/tmp/usr/bin/mkimage usr/bin/
-./debian/tmp/usr/bin/env/fw_printenv usr/bin/
+debian/tmp/usr/bin/dumpimage usr/bin
+debian/tmp/usr/bin/mkenvimage usr/bin
+debian/tmp/usr/bin/mkimage usr/bin
+debian/tmp/usr/bin/env/fw_printenv usr/bin
