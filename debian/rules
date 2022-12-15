@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 
-BOOT_PATH=`pwd`/debian/tmp/boot
-TOOL_PATH=`pwd`/debian/tmp/usr/bin
+BOOT_PATH=./debian/tmp/boot
+TOOL_PATH=./debian/tmp/usr/bin
 
-BUILD_DIR=`pwd`/debian/build
+BUILD_DIR=./debian/build
 
 #MAKE_OPTS= ARCH=arm64 CROSS_COMPILE= KERNELRELEASE=2021.10 O=$(BUILD_DIR)
 MAKE_OPTS= KERNELRELEASE=2021.10 O=$(BUILD_DIR)
